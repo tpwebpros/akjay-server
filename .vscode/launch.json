@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Node Functions",
+            "type": "node",
+            "request": "attach",
+            "protocol": "inspector",
+            "port": 9229,
+            "preLaunchTask": "func: host start",
+            "timeout": 2000
+        }
+    ]
+}

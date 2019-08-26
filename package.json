@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "author": "",
+  "dependencies": {
+    "azure-storage": "^2.10.3",
+    "strip-js": "^1.2.0",
+    "uuid": "^3.3.2"
+  }
+}
