@@ -35,7 +35,6 @@ module.exports = async function (context, req) {
             if (gameQuestions && gameQuestions.includes(question.RowKey._) || !gameQuestions) {
                 questions.push(Object.keys(question).reduce((acc, k) => {
                     acc[k] = question[k]['_'];
-
                     return acc;
                 }, {}));
             }
